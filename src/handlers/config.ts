@@ -17,7 +17,7 @@ const configHandler = async () => {
     },
     {
       message:
-        'How many tokens you want as a limit? More info here https://openai.com/api/pricing/',
+        'What is your max daily spend to buy tokens (for AskGPT?) See https://openai.com/api/pricing/',
       type: 'number',
       name: 'tokens'
     },
